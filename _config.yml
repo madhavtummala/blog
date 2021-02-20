@@ -21,6 +21,11 @@ minima:
     github_username: madhavtummala
     gitlab: MadhavTummala
 
+# Who doesn't want better indexing
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 
 discuss:
   # for a comment section
