@@ -7,19 +7,20 @@ theme: minima
 # Minima: show excerpts in the frontpage
 show_excerpts: true
 
+# Minima: social links
+social_links:
+  linkedin_username: madhav-tummala-115984145
+  youtube_channel: UCA95U4gtPPz-2XKNZzc2inA
+  instagram: madhav.tummala
+  twitter_username: madhavtummala
+  github_username: madhavtummala
+  gitlab_username: MadhavTummala
+
 minima:
   # date format familiar to indians
   date_format: "%b %d, %Y"
   # dark mode because for real developers 😜
   skin: dark
-  # Minima social links
-  social_links:
-    linkedin: madhav-tummala-115984145
-    youtube_channel: UCA95U4gtPPz-2XKNZzc2inA
-    instagram: madhavtummala
-    twitter_username: madhavtummala
-    github_username: madhavtummala
-    gitlab: MadhavTummala
 
 # Who doesn't want better indexing
 plugins:
