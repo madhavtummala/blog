@@ -4,25 +4,38 @@ email: madhavtummala@icloud.com
 
 theme: minima
 
-# Minima social links
-twitter_username: madhavtummala
-github_username: madhavtummala
-
 # Minima: show excerpts in the frontpage
 show_excerpts: true
 
 minima:
-  date_format: "%Y-%m-%d"
+  # date format familiar to indians
+  date_format: "%b %d, %Y"
+  # dark mode because for real developers 😜
+  skin: dark
+  # Minima social links
+  social_links:
+    linkedin: madhav-tummala-115984145
+    youtube_channel: UCA95U4gtPPz-2XKNZzc2inA
+    instagram: madhavtummala
+    twitter_username: madhavtummala
+    github_username: madhavtummala
+    gitlab: MadhavTummala
+
+
+discuss:
+  # for a comment section
+  shortname: madhavtummala
 
 # Minima: custom header links
 header_pages:
-  - _pages/frontpage.md
   - _pages/about.md
   - _pages/archive.md
 
+# these are the place for all the blog posts
 include:
     - _pages
 
+# these things better not appear on the page
 exclude: 
     - .gitignore
     - docker-compose.yml
