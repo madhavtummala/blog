@@ -5,6 +5,6 @@ layout: post
 tag: setup
 ---
 
-This is my first post after setting up this blog page.
-
-This is the second paragraph / line in this page
+## As simple as
+### docker-compose up
+### start editing
